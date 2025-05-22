@@ -1,0 +1,15 @@
+{
+     "redirects": [
+          {
+               "source": "/(.*)",
+               "has": [
+                    {
+                         "type": "host",
+                         "value": "ystreams.co"
+                    }
+               ],
+               "destination": "https://www.ystreams.co/$1",
+               "permanent": true
+          }
+     ]
+}
