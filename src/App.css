@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"); /* RUBIX */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"); /* DM SANS */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* ROBOTO */
+
+@font-face {
+     font-family: "Ageo", "san-serif";
+     src: url("/Fonts/ageo/AgeoTrial-Medium.ttf") format("truetype");
+} /* AGEO */
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: none !important;
+     font-family: "DM sans", "san-serif";
+     -webkit-text-fill-color: #fff;
+     -webkit-box-shadow: 0 0 0px 1000px inherit inset;
+     transition: background-color 5000s ease-in-out 0s;
+}
+
+.home-container {
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     /* width: 100%; */
+     padding: 30px;
+}
+
+.home-content {
+     max-width: 1200px;
+     width: 100%;
+}
+
+@media (max-width: 600px) {
+     .home-container {
+          padding: 10px;
+          /* width: 100%; */
+     }
+}
