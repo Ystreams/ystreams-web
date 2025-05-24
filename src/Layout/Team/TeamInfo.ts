@@ -5,7 +5,7 @@ export const teamInfo = [
      {
           image: "/Images/the-Team/Kunle Passport.jpg",
           name: "Adekunle Ajayi",
-          role: "CEO",
+          role: "CEO & Head, Consulting Services",
           email: "accounts@ystreams.co",
           whatsapp,
      },
@@ -13,13 +13,6 @@ export const teamInfo = [
           image: "/Images/the-Team/Seun Passport.jpg",
           name: "Oluwaseun Owoyemi",
           role: "Partner Advisory Services",
-          email: "accounts@ystreams.co",
-          whatsapp,
-     },
-     {
-          image: "/Images/the-Team/Wisdom Passport.jpg",
-          name: "Akporugo Odeghe",
-          role: "Partner Assurance Services",
           email: "accounts@ystreams.co",
           whatsapp,
      },
