@@ -5,9 +5,9 @@
 .team {
      display: grid;
      align-items: center;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
      gap: 20px;
-     justify-content: space-between;
+     justify-content: center;
      margin-top: 50px;
 }
 

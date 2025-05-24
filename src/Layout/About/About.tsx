@@ -106,7 +106,7 @@ function About ({ aboutRef, videoRef, serviceRef }: AboutRefProps) {
         </div>
         <div className='video-container' onClick={togglePlayPause}>
           <div className='play-button'></div>
-          <video ref={videoRef} controls={false}>
+          <video ref={videoRef} controls={false} >
             <source src='/Videos/ystream-website-video.mp4' type='video/mp4' />
             Your browser does not support the video tag.
           </video>
